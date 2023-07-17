@@ -11,7 +11,7 @@ var all_cuntries = []country_info{
 	{"安道尔", "Andorra", "AD", 20},
 	{"阿联酋", "United Arab Emirates", "AE", 784},
 	{"阿富汗", "Afghanistan", "AF", 4},
-	{"安提瓜和巴布达", "Antigua & Barbuda", "AG", 28},
+	{"安提瓜和巴布达", "Antigua and Barbuda", "AG", 28},
 	{"安圭拉", "Anguilla", "AI", 660},
 	{"阿尔巴尼亚", "Albania", "AL", 8},
 	{"亚美尼亚", "Armenia", "AM", 51},
@@ -24,7 +24,7 @@ var all_cuntries = []country_info{
 	{"阿鲁巴", "Aruba", "AW", 533},
 	{"奥兰群岛", "Ahvenanmaa", "AX", 248},
 	{"阿塞拜疆", "Azerbaijan", "AZ", 31},
-	{"波黑", "Bosnia & Herzegovina", "BA", 70},
+	{"波黑", "Bosnia and Herzegovina", "BA", 70},
 	{"巴巴多斯", "Barbados", "BB", 52},
 	{"孟加拉", "Bangladesh", "BD", 50},
 	{"比利时", "Belgium", "BE", 56},
@@ -234,7 +234,7 @@ var all_cuntries = []country_info{
 	{"库克群岛", "Cook Islands", "CK", 184},
 	{"英国", "Great Britain", "GB", 826},
 	{"特立尼达和多巴哥", "Trinidad Tobago", "TT", 780},
-	{"圣文森特和格林纳丁斯", "St. Vincent & the Grenadines", "VC", 670},
+	{"圣文森特和格林纳丁斯", "St. Vincent and the Grenadines", "VC", 670},
 	{"台湾", "Taiwan", "TW", 158},
 	{"新西兰", "New Zealand", "NZ", 554},
 	{"沙特阿拉伯", "Saudi Arabia", "SA", 682},
@@ -255,6 +255,7 @@ var all_cuntries = []country_info{
 	{"科特迪瓦", "Coate dIvoire", "CI", 384},
 	{"肯尼亚", "Kenya", "KE", 404},
 	{"蒙古", "Mongolia", "MN", 496},
+	{"保留", "Reserved", "RSV", 65536},
 }
 
 func region_cn2code(cn string) int32 {
