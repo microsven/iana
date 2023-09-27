@@ -74,12 +74,13 @@ func iana_entry_add(addr uint32, num uint32, country string) {
 		iana_ctx.masks[masklen-1].ents[new_addr] = &route_entry{
 			country: country,
 		}
-
+/*
 		fmt.Printf("add addr-%v.%v.%v.%v/%v\n",
 			(new_addr>>24)&0xff,
 			(new_addr>>16)&0xff,
 			(new_addr>>8)&0xff,
 			new_addr&0xff, masklen*8)
+*/
 	}
 }
 
@@ -93,6 +94,7 @@ func iana_search(addr uint32) int32 {
 			return region_shortcuts2code(ent.country)
 		}
 	}
+
 	return 0
 }
 

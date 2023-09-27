@@ -1,5 +1,5 @@
 package main
-
+/*
 import (
 	"fmt"
 	"math/rand"
@@ -57,3 +57,4 @@ func main() {
 			v.code_from_iana, region_code2en(v.code_from_iana), region_code2en(v.code_from_xdb))
 	}
 }
+*/
